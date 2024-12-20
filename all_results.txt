@@ -1,0 +1,398 @@
+Number of rows (days): 1718
+Number of columns (variables): 80
+                  Open        High  ...  USO_Adj Close  USO_Volume
+Date                                ...                           
+2011-12-15  154.740005  154.949997  ...      36.130001    12616700
+2011-12-16  154.309998  155.369995  ...      36.270000    12578800
+2011-12-19  155.479996  155.860001  ...      36.200001     7418200
+2011-12-20  156.820007  157.429993  ...      37.560001    10041600
+2011-12-21  156.979996  157.529999  ...      38.110001    10728000
+
+[5 rows x 80 columns]
+Unique days of week in data: Index([3, 4, 0, 1, 2], dtype='int32', name='Date')
+Number of missing business days (potential holidays): 120
+Missing dates: DatetimeIndex(['2011-12-26', '2012-01-02', '2012-01-16', '2012-01-26',
+               '2012-02-20', '2012-04-06', '2012-05-28', '2012-07-04',
+               '2012-08-15', '2012-09-03',
+               ...
+               '2018-02-19', '2018-03-30', '2018-05-28', '2018-07-04',
+               '2018-08-15', '2018-09-03', '2018-10-02', '2018-11-22',
+               '2018-12-05', '2018-12-25'],
+              dtype='datetime64[ns]', length=120, freq=None)
+Missing values per column:
+ Open             0
+High             0
+Low              0
+Close            0
+Adj Close        0
+Volume           0
+SP_open          0
+SP_high          0
+SP_low           0
+SP_close         0
+SP_Ajclose       0
+SP_volume        0
+DJ_open          0
+DJ_high          0
+DJ_low           0
+DJ_close         0
+DJ_Ajclose       0
+DJ_volume        0
+EG_open          0
+EG_high          0
+EG_low           0
+EG_close         0
+EG_Ajclose       0
+EG_volume        0
+EU_Price         0
+EU_open          0
+EU_high          0
+EU_low           0
+EU_Trend         0
+OF_Price         0
+OF_Open          0
+OF_High          0
+OF_Low           0
+OF_Volume        0
+OF_Trend         0
+OS_Price         0
+OS_Open          0
+OS_High          0
+OS_Low           0
+OS_Trend         0
+SF_Price         0
+SF_Open          0
+SF_High          0
+SF_Low           0
+SF_Volume        0
+SF_Trend         0
+USB_Price        0
+USB_Open         0
+USB_High         0
+USB_Low          0
+USB_Trend        0
+PLT_Price        0
+PLT_Open         0
+PLT_High         0
+PLT_Low          0
+PLT_Trend        0
+PLD_Price        0
+PLD_Open         0
+PLD_High         0
+PLD_Low          0
+PLD_Trend        0
+RHO_PRICE        0
+USDI_Price       0
+USDI_Open        0
+USDI_High        0
+USDI_Low         0
+USDI_Volume      0
+USDI_Trend       0
+GDX_Open         0
+GDX_High         0
+GDX_Low          0
+GDX_Close        0
+GDX_Adj Close    0
+GDX_Volume       0
+USO_Open         0
+USO_High         0
+USO_Low          0
+USO_Close        0
+USO_Adj Close    0
+USO_Volume       0
+
+Total number of missing values: 0
+
+Data types of each column:
+Open             float64
+High             float64
+Low              float64
+Close            float64
+Adj Close        float64
+Volume             int64
+SP_open          float64
+SP_high          float64
+SP_low           float64
+SP_close         float64
+SP_Ajclose       float64
+SP_volume          int64
+DJ_open          float64
+DJ_high          float64
+DJ_low           float64
+DJ_close         float64
+DJ_Ajclose       float64
+DJ_volume          int64
+EG_open          float64
+EG_high          float64
+EG_low           float64
+EG_close         float64
+EG_Ajclose       float64
+EG_volume          int64
+EU_Price         float64
+EU_open          float64
+EU_high          float64
+EU_low           float64
+EU_Trend           int64
+OF_Price         float64
+OF_Open          float64
+OF_High          float64
+OF_Low           float64
+OF_Volume          int64
+OF_Trend           int64
+OS_Price         float64
+OS_Open          float64
+OS_High          float64
+OS_Low           float64
+OS_Trend           int64
+SF_Price           int64
+SF_Open            int64
+SF_High            int64
+SF_Low             int64
+SF_Volume          int64
+SF_Trend           int64
+USB_Price        float64
+USB_Open         float64
+USB_High         float64
+USB_Low          float64
+USB_Trend          int64
+PLT_Price        float64
+PLT_Open         float64
+PLT_High         float64
+PLT_Low          float64
+PLT_Trend          int64
+PLD_Price        float64
+PLD_Open         float64
+PLD_High         float64
+PLD_Low          float64
+PLD_Trend          int64
+RHO_PRICE          int64
+USDI_Price       float64
+USDI_Open        float64
+USDI_High        float64
+USDI_Low         float64
+USDI_Volume        int64
+USDI_Trend         int64
+GDX_Open         float64
+GDX_High         float64
+GDX_Low          float64
+GDX_Close        float64
+GDX_Adj Close    float64
+GDX_Volume         int64
+USO_Open         float64
+USO_High         float64
+USO_Low          float64
+USO_Close        float64
+USO_Adj Close    float64
+USO_Volume         int64
+Descriptive Statistics for Selected Variables:
+
+             count          mean  ...           75%           max
+Adj Close   1718.0    127.319482  ...    128.470001    173.610001
+SP_close    1718.0    204.491222  ...    236.889996    293.579987
+DJ_close    1718.0  18164.119043  ...  20851.157715  26828.390630
+USDI_Price  1718.0     89.809427  ...     96.103750    103.288000
+EU_Price    1718.0      1.208494  ...      1.305550      1.393400
+GDX_Close   1718.0     26.715012  ...     27.317500     57.470001
+SF_Price    1718.0  43284.478463  ...  46580.500000  65292.000000
+PLT_Price   1718.0   1183.915425  ...   1442.862500   1737.600000
+PLD_Price   1718.0    766.805122  ...    848.200000   1197.500000
+RHO_PRICE   1718.0   1130.442375  ...   1307.500000   2600.000000
+USO_Close   1718.0     22.109051  ...     34.417499     42.009998
+OF_Price    1718.0     77.504523  ...    107.730000    126.220000
+OS_Price    1718.0     70.153097  ...     94.280000    110.300000
+
+[13 rows x 8 columns]
+
+Median Values:
+Adj Close       121.795002
+SP_close        205.529999
+DJ_close      17612.939455
+USDI_Price       92.883500
+EU_Price          1.184050
+GDX_Close        23.054999
+SF_Price      40521.500000
+PLT_Price      1098.025000
+PLD_Price       748.300000
+RHO_PRICE      1100.000000
+USO_Close        16.345000
+OF_Price         70.115000
+OS_Price         64.680000
+dtype: float64
+
+Correlation Matrix:
+            Adj Close  SP_close  DJ_close  USDI_Price  EU_Price  GDX_Close  SF_Price  PLT_Price  PLD_Price  RHO_PRICE  USO_Close  OF_Price  OS_Price
+Adj Close    1.000000 -0.684284 -0.588411   -0.721569  0.581036   0.975459  0.947420   0.775861  -0.213179   0.095782   0.635675  0.710693  0.630817
+SP_close    -0.684284  1.000000  0.986917    0.691394 -0.548404  -0.693610 -0.723575  -0.856549   0.703772   0.381608  -0.773159 -0.623821 -0.587380
+DJ_close    -0.588411  0.986917  1.000000    0.618134 -0.478621  -0.605322 -0.646737  -0.811543   0.771760   0.468068  -0.721378 -0.536211 -0.507989
+USDI_Price  -0.721569  0.691394  0.618134    1.000000 -0.970819  -0.668181 -0.719465  -0.901038   0.113176  -0.001144  -0.930767 -0.932621 -0.924975
+EU_Price     0.581036 -0.548404 -0.478621   -0.970819  1.000000   0.514285  0.590900   0.821030   0.030189   0.027498   0.887218  0.903890  0.918097
+GDX_Close    0.975459 -0.693610 -0.605322   -0.668181  0.514285   1.000000  0.936121   0.745848  -0.264082   0.073748   0.614915  0.674625  0.599326
+SF_Price     0.947420 -0.723575 -0.646737   -0.719465  0.590900   0.936121  1.000000   0.808133  -0.289833  -0.022740   0.671612  0.734201  0.663126
+PLT_Price    0.775861 -0.856549 -0.811543   -0.901038  0.821030   0.745848  0.808133   1.000000  -0.326248  -0.176380   0.930607  0.868344  0.843934
+PLD_Price   -0.213179  0.703772  0.771760    0.113176  0.030189  -0.264082 -0.289833  -0.326248   1.000000   0.612363  -0.218673 -0.013374  0.002524
+RHO_PRICE    0.095782  0.381608  0.468068   -0.001144  0.027498   0.073748 -0.022740  -0.176380   0.612363   1.000000  -0.068746  0.122162  0.090490
+USO_Close    0.635675 -0.773159 -0.721378   -0.930767  0.887218   0.614915  0.671612   0.930607  -0.218673  -0.068746   1.000000  0.945406  0.949219
+OF_Price     0.710693 -0.623821 -0.536211   -0.932621  0.903890   0.674625  0.734201   0.868344  -0.013374   0.122162   0.945406  1.000000  0.986421
+OS_Price     0.630817 -0.587380 -0.507989   -0.924975  0.918097   0.599326  0.663126   0.843934   0.002524   0.090490   0.949219  0.986421  1.000000
+             Adj Close  Adj Close_prev  ...  OF_Price_prev  OS_Price_prev
+Date                                    ...                              
+2011-12-16  155.229996      152.330002  ...         105.09          93.42
+2011-12-19  154.869995      155.229996  ...         103.35          93.79
+2011-12-20  156.979996      154.869995  ...         103.64          94.09
+2011-12-21  157.160004      156.979996  ...         106.73          95.55
+2011-12-22  156.039993      157.160004  ...         107.71          99.01
+
+[5 rows x 14 columns]
+C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\model_selection\_validation.py:528: FitFailedWarning: 
+80 fits failed out of a total of 200.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+32 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._parameter_constraints,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.get_params(deep=False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        caller_name=self.__class__.__name__,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+    ...<2 lines>...
+    )
+sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of RandomForestRegressor must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'sqrt', 'log2'} or None. Got 'auto' instead.
+
+--------------------------------------------------------------------------------
+48 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._parameter_constraints,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.get_params(deep=False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        caller_name=self.__class__.__name__,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+    ...<2 lines>...
+    )
+sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of RandomForestRegressor must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'log2', 'sqrt'} or None. Got 'auto' instead.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\model_selection\_search.py:1107: UserWarning: One or more of the test scores are non-finite: [-1.74089578 -1.73647775 -1.69392421         nan         nan -1.74089578
+ -1.26629326 -1.28648977         nan -1.73854833         nan         nan
+ -1.26770112 -1.72390684         nan -1.2563446  -1.30173134 -1.699178
+         nan         nan]
+  warnings.warn(
+Best parameters found: {'n_estimators': 300, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': 20}
+Best RMSE from RandomizedSearchCV: 1.2563
+
+Tuned Random Forest 10-Fold CV RMSE Scores: [np.float64(1.3093728882485425), np.float64(1.2232657254810202), np.float64(1.1957332779771972), np.float64(1.398296433466341), np.float64(1.5011693227008926), np.float64(1.4117609990046183), np.float64(1.107903303995905), np.float64(1.263173174611568), np.float64(1.036123145215667), np.float64(1.1166477637947767)]
+Tuned Random Forest Mean RMSE: 1.2563 ± 0.1421
+
+Summary:
+The RandomizedSearchCV identified optimal parameters that yield a best RMSE of approximately 1.2563 during tuning.
+After refitting with these parameters and re-evaluating with 10-fold CV, the model achieves a mean RMSE of about 1.2563. If this is an improvement over the previous model or baseline, it indicates that hyperparameter tuning helped reduce error.
+Random Forest 10-Fold CV RMSE Scores: [np.float64(1.3490058583408697), np.float64(1.2343561060970207), np.float64(1.3714951640029163), np.float64(1.6131232944935556), np.float64(1.551335753704776), np.float64(1.3894497518053397), np.float64(1.141722625751006), np.float64(1.2766628891419516), np.float64(1.1027269400090198), np.float64(1.1596588272623958)]
+Random Forest Mean RMSE: 1.3190 ± 0.1618
+Baseline (Previous Day Adj Close) 10-Fold CV RMSE Scores: [np.float64(1.2791375634769317), np.float64(1.2286682646474834), np.float64(1.2139836245659508), np.float64(1.5931188826333704), np.float64(1.413284766281229), np.float64(1.3335406246884838), np.float64(1.1035734418899026), np.float64(1.2134239568112324), np.float64(0.9452204095905332), np.float64(1.107286805223225)]
+Baseline Mean RMSE: 1.2431 ± 0.1702
+The Random Forest model does not outperform the baseline.
+Baseline (Previous Day Adj Close) Mean RMSE: 1.2377
+C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\model_selection\_validation.py:528: FitFailedWarning: 
+70 fits failed out of a total of 300.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+22 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._parameter_constraints,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.get_params(deep=False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        caller_name=self.__class__.__name__,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+    ...<2 lines>...
+    )
+sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of RandomForestRegressor must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'sqrt', 'log2'} or None. Got 'None' instead.
+
+--------------------------------------------------------------------------------
+48 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._parameter_constraints,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.get_params(deep=False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        caller_name=self.__class__.__name__,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+    ...<2 lines>...
+    )
+sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of RandomForestRegressor must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'log2', 'sqrt'} or None. Got 'None' instead.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+C:\Users\yiziw\PycharmProjects\PythonProject\.venv\Lib\site-packages\sklearn\model_selection\_search.py:1107: UserWarning: One or more of the test scores are non-finite: [-1.29448322 -1.21775124 -1.60649945         nan -1.29448322 -1.26329354
+ -1.23075062 -1.57879679 -1.5733764  -1.59680165 -1.59324885 -1.28026757
+ -1.57350423         nan -1.21775124 -1.59196575 -1.25702387 -1.21262887
+         nan -1.30034201 -1.28626972         nan -1.28026757 -1.23315116
+         nan         nan -1.58925081 -1.27631731         nan -1.28626972]
+  warnings.warn(
+
+Best parameters found: {'n_estimators': 100, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None}
+Best RMSE from RandomizedSearchCV (CV estimate): 1.2126
+
+Tuned Random Forest 10-Fold CV RMSE Scores: [np.float64(1.1156423473708381), np.float64(1.322542350367134), np.float64(1.1147258866012464), np.float64(1.5195831677128153), np.float64(1.0990061117177985), np.float64(1.2600192869590965), np.float64(1.1954706921045404), np.float64(1.269677366453871), np.float64(1.0425482887406539), np.float64(1.1870732485712299)]
+Tuned Random Forest Mean RMSE: 1.2126 ± 0.1317
+
+Baseline Mean RMSE: 1.2377
+The tuned Random Forest model now outperforms the baseline!
